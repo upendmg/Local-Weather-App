@@ -1,0 +1,85 @@
+body {
+background-repeat: no-repeat;
+background-position: 50%;
+background-size: cover; 
+min-height: 100vh;
+padding: 0px 45px 30px 45px;
+}
+  
+#head-text {
+  text-align: center;
+  padding-top: 10px;
+  font-family: Poiret One;
+  color: white;
+  font-size: 430%;
+  text-shadow: 1px 1px 3px #d9d9d9;
+}
+
+#weather-icon {
+  height: 100px;
+  width: auto;
+}
+
+#weather-subtext {
+  font-family: Dancing Script;
+}
+
+#date {
+  text-align: center;
+  font-family: Poiret One;
+  font-size: 130%;
+  color: #f2f2f2;
+  padding-bottom: 18px;
+  color: rgba(242, 242, 242,.8);
+}
+
+#current-time {
+  text-align: center;
+  font-family: Poiret One;
+  font-size: 190%;
+  color: rgba(242, 242, 242,.8);
+}
+
+#sub-box {
+  padding: 0px 50px 50px 50px;
+  border-radius: 5px;
+  text-align: center;
+  color: #d9d9d9; 
+  width: 100%;
+  background: rgba(0,0,0,.4); 
+  box-shadow: 8px 1px 8px #1a1a1a;
+}
+
+#geo-data {
+  padding: 15px 0px 0px 0px;
+  font-family: Poiret One, Monospace;
+  font-size: 230%;
+}
+
+#general-info {
+  padding-bottom: 10px;
+  font-size: 200%;
+  font-family: Poiret One;
+  text-shadow: 1px 1px 3px #d9d9d9;
+}
+
+#temp-wraper {
+  font-size: 190%;
+  padding: 5px 0px 10px 0px;
+  font-family: Poiret One;
+}
+
+#inact {
+  color: rgba(150, 150, 150, .6);
+}
+
+#inact:hover {
+  color: #d9d9d9;
+}
+
+.box-text {
+  padding-bottom: 5px;
+  font-size: 200%;
+  font-family: Poiret One;
+}
+
